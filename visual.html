@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<title>Web 1 - CECAR :: Posicionamiento y Viualización</title>
+</head>
+
+<body>
+
+	<header>
+        <h1 id="t">Posicionamiento y Visualización</h1>
+		<nav>
+			<ul id="lmu">
+                <li class="lm"><a href="index.html">Inicio</a></li>
+                <li class="lm"><a href="#">Posiciona. - Tipos</a></li>
+                <li class="lm"><a href="#">Visualiza. - Tipos</a></li>
+                <li class="lm"><a href="#">Visualiza. Forms</a></li>
+              </ul>
+		</nav>
+	</header>
+	
+	<section>
+	
+		<article class="contenido">
+			<header>
+				<h2>Visualización</h2>
+            </header>
+			<p>Además de las propiedades que controlan el posicionamiento de los elementos, CSS define
+
+				otras cuatro propiedades para controlar su visualización: display, visibility, overflow y z-
+				index.
+
+				Utilizando algunas de estas propiedades es posible ocultar y/o hacer invisibles las cajas de los
+				elementos, por lo que son imprescindibles para realizar efectos avanzados y animaciones.</p>
+        
+			<h1> Propiedades display y visibility </h1><br>
+		
+			<p>Las propiedades display y visibility controlan la visualización de los elementos. Las dos
+				propiedades permiten ocultar cualquier elemento de la página. Habitualmente se utilizan junto
+				con JavaScript para crear efectos dinámicos como mostrar y ocultar determinados textos o
+				imágenes cuando el usuario pincha sobre ellos.
+				La propiedad display permite ocultar completamente un elemento haciendo que desaparezca
+				de la página. Como el elemento oculto no se muestra, el resto de elementos de la página se
+				mueven para ocupar su lugar.
+
+				Por otra parte, la propiedad visibility permite hacer invisible un elemento, lo que significa
+				que el navegador crea la caja del elemento pero no la muestra. En este caso, el resto de
+				elementos de la página no modifican su posición, ya que aunque la caja no se ve, sigue
+				ocupando sitio.
+				La siguiente imagen muestra la diferencia entre ocultar la caja número 5 mediante la
+				propiedad display o hacerla invisible mediante la propiedad visibility:
+			<figure><div class="ani"><img src="img/v1.jpg" alt="css3" width="30%" height="30%"></div></figure>
+		<ul>
+        <li><b>Posicionamiento normal o estático:</b> se trata del posicionamiento que utilizan los navegadores si no se indica lo contrario.</li>   
+        <li><b>Posicionamiento relativo:</b> variante del posicionamiento normal que consiste en posicionar una caja según el posicionamiento normal y después desplazarla respecto de su posición original.</li>
+        <li><b>Posicionamiento absoluto:</b> la posición de una caja se establece de forma absoluta respecto de su elemento contenedor y el resto de elementos de la página ignoran la nueva posición del elemento.</li>
+        <li><b>Posicionamiento fijo:</b> variante del posicionamiento absoluto que convierte una caja en un elemento inamovible, de forma que su posición en la pantalla siempre es la misma independientemente del resto de elementos e independientemente de si el usuario sube o baja la página en la ventana del navegador.</li>
+        <li><b>Posicionamiento flotante:</b> se trata del modelo más especial de posicionamiento, ya que desplaza las cajas todo lo posible hacia la izquierda o hacia la derecha de la línea en la que se encuentran.</li>
+        </ul>
+		</article>
+		
+		
+	</section>
+
+	<hr>
+	<footer class="contenido">
+		<center><p class="texto">Copyright 2019 - Fany Castro, Jose Alvarez Arrieta</p></center>
+	</footer>
+
+</body>
+</html>
